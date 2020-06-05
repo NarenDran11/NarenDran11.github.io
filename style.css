@@ -1,0 +1,414 @@
+
+  html{
+         
+    scroll-behavior: smooth;
+
+}
+body{
+
+margin: 0;
+padding: 0;
+font-family: arial;
+}
+
+
+.container{
+
+  max-width: auto;
+  margin: 0 auto;
+  background: white;
+  font-size: 21px;
+  padding: 25px;
+
+}
+
+.parallax {
+  background: url(info.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+ 
+  
+}
+
+
+
+
+
+
+
+.nav ul{
+
+list-style: none;
+background: white;
+text-align: center;
+padding: 30;
+margin: 10;
+
+
+}
+
+
+
+li{
+
+    display: inline-block;
+      } 
+
+
+  a{
+        padding: 15px;
+        width: 100px;
+        display: block;
+        text-decoration: none;
+        color:black;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family:Helvetica;
+        transition: 0.4s;
+       
+       
+       }
+
+.nav a:hover{
+
+background: lightgrey;
+transition: 0.4s;
+position: cover;
+}
+
+
+/*sections*/
+
+#sec1{
+
+    height: 800px;
+    background:rgb(236, 231, 231);
+    display: inline-block;
+    width: 100%;
+    
+    }
+
+
+#sec2{
+
+    height: 1000px;
+    background:white;
+    display: inline-block;
+    width: 100%;
+    
+    }
+
+    #sec3{
+
+        height: 1100px;
+        background:rgb(236, 231, 231) ;
+        display: inline-block;
+        width: 100%;
+        
+        }
+
+
+
+        #sec4{
+
+            height: 900px;
+            background: white;
+            display: inline-block;
+            width: 100%;
+            
+            }
+
+
+            #sec5{
+
+                height: 900px;
+                background:white;
+                display: inline-block;
+                width: 100%;
+                
+                }        
+
+                #sec6{
+
+                    height: 900px;
+                    background :rgb(236, 231, 231);
+                    display: inline-block;
+                    width: 100%;
+                    
+                    }          
+
+                    #sec7{
+
+                        height: 900px;
+                        background:white;
+                        display: inline-block;
+                        width: 100%;
+                        
+                        }
+
+/* heading style  */
+
+h1{
+margin: 100px;
+text-align: center;
+font-weight: 300;
+
+
+}
+
+h2{
+margin: 0px;
+padding: 30;
+text-align: center;
+font-weight: 300;
+
+}
+
+
+h4{
+
+    margin: 100px;
+    text-align: center;
+    font-weight: 200;
+
+
+}
+
+h6 {
+
+    margin: 40px;
+    text-align: center;
+    font-weight: 200;
+    color: white;
+
+}
+
+
+
+
+p{
+    color: black;
+    text-align: center;
+    padding-left: 500px;
+    padding-right:500px;
+    font-size: 17px;
+    word-spacing: 10px;
+    
+
+
+}
+
+#avatar{
+
+border-radius: 50%;
+width: 200px;
+height: 200px;
+background-image: url("logo1.png");
+background-size: cover;
+position: relative;
+left: 838px;
+
+}
+
+
+
+#avatar2{
+    
+    background-image: url("img.png");
+   
+    width: 700px;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+    left: 600px;
+    
+    
+    
+
+}
+
+#head{
+
+background-color: rgb(44, 165, 212);
+width: 100%;
+height: 25%;
+}
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: rgb(236, 231, 231);
+    height:50%;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display:none;
+    padding: 20px;
+    text-align: center;
+    transition: ease-in;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot */
+  .dot-container {
+    text-align: center;
+    padding: 70px;
+    background: rgb(236, 231, 231);
+  }
+  
+  /* indicators */
+  .dot {
+    
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /*  active dot*/
+  .active, .dot:hover {
+    background-color: black;
+  }
+  
+
+
+
+  
+/*contact section*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 200px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+/* Style contact section */
+.containerContact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns  */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*client login */
+
+.btn{
+  position: relative;
+  left: 400px;
+  top: 10px;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  
+  }
+  .btn-full{
+      background-color: transparent;
+      color: whitesmoke;
+      margin-right: 14px;
+      border:1px solid white;
+  
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
